@@ -1,0 +1,86 @@
+
+nav {
+    background-color: white;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.company a {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.company a span {
+    color: #CC9B6D;
+}
+
+.register {
+    margin-right: 20px;
+    border: 2px solid #95BDFF;
+    padding: 0 5px;
+}
+
+.register img {
+    margin-right: 5px;
+}
+
+.register a {
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    margin-right: 20px;
+    background-color: #A9ECA2;
+    display: flex;
+    padding: 0 8px;
+}
+
+.login img {
+    margin-right: 5px;
+}
+
+.login a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 61px);
+}
+
+.home .image {
+    margin-right: 50px;
+}
+
+.home .info {
+    width: 35%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home .info h2 {
+    text-align: center;
+    margin-top: 90px;
+}
+
+.home .info h2 span {
+    color: #95BDFF;
+}
+
+.home .info p {
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+}

@@ -25,29 +25,29 @@
             
        
             <div class="max-w-7xl mx-auto p-6 lg:p-8">
-            <h1 style='font-size: 23px; margin-bottom: 20px'>Configuracion de Cuenta</h1>
+            <h1 style='font-size: 23px; margin-bottom: 20px'>Cambio de Contraseña</h1>
                 <div class="flex justify-center">
-                
+           
                 </div>
                 
                 <div class="mt-1">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                        <a  class="scale-100 p-6 bg-white flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500" style='border-radius: 8px; box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4)'>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8; ">
+                        <a  class="scale-100 p-6 bg-white  flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500" style='border-radius: 8px; box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4)'>
                             <div>
                                 <div class="h-16 w-16 bg-blue-50 dark:bg-blue-800/20 flex items-center justify-center rounded-full" style='border-radius: 8px; box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3)'>
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-blue-500">
 
-                                        <img src="vendor/adminlte/dist/img/usersvg.png" height="50px" weight="50px" alt="">
+                                        <img src="vendor/adminlte/dist/img/password.png" height="50px" weight="50px" alt="">
 
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Nombre</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Contraseña</h2>
                                 <div >
                               
                                 </div>
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                <x-adminlte-input name="" label="" placeholder="Nombre"
+                                <x-adminlte-input name="" label="" placeholder="Password"
                                     fgroup-class="col-md-19" disable-feedback/>
                                 </p>
                             </div>
@@ -57,23 +57,23 @@
                             </svg>
                         </a>
 
-                        <a  class="scale-100 p-6 bg-white flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500" style='border-radius: 8px; box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.4)'>
+                        <a class="scale-100 p-6 bg-white flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500" style='border-radius: 8px; box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3)'>
                             <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full" style='border-radius: 8px; box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3)'>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                    <img src="vendor/adminlte/dist/img/email.png" height="50px" weight="50px" alt="">
+                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500" style='border-radius: 8px; box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3)'>
+                                    <img src="vendor/adminlte/dist/img/confirmpassword.png" height="50px" weight="50px" alt="" style='border-radius: 8px; box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3)'>
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Email</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Confirmar Contraseña</h2>
 
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    <x-adminlte-input name="" label="" placeholder="Email"
+                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed" >
+                                    <x-adminlte-input name="" label="" placeholder="Confirm Password"
                                     fgroup-class="col-md-19" disable-feedback/>
                                 </p>
                             </div>
 
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6" >
                                 <path stroke-linecap="round" stroke-linejoin="round" d="" />
                             </svg>
                         </a>

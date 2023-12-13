@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('start');
 });
 
 Auth::routes();
@@ -29,4 +29,8 @@ Route::get('/home', function() {
 
 Route::get('/profilesettings', function () {
     return view( view: 'profile');
+});
+
+Route::get('/accountsettings', function () {
+    return view( view: 'profsettings');
 });
